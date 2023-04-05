@@ -1,0 +1,124 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings to you","help","need medical assistance","hi there","how are you today","knock knock","is any one there"],
+             "responses":["hello","hey!","dear human, how can i help you today ?","thank you for contacting VKMOR medical assistant chatbot what can i do for you"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["thank you for the assistance, bye","see you later","goodbye","have a good day","bye"],
+             "responses":["have a nice day","goodbye", "thank you for needing my assistance, have a nice day","be healthy and stay safe"]
+            },
+            {
+             "tag":"histroy",
+             "patterns": ["what is your age","how old are you?","what is your age","your age please?"],
+             "responses":["I was designed on the month of september 2022","my knowledge base is not designed for computations, but my earliest known memory is dated to Septmeber 2022"]
+            },
+        
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","may i know your name?","who are you?","tell me your name"],
+             "responses":["you can call me Isabel!, i am an AI chatbot designed to provide you with the best consultation on Covid-19",
+                          "i am Isabel!, your AI powered chatbot for Covid-19 diagnosis",
+                          "i am Isabel your AI powered medical assistant developed by VKMOR, my knowledgebase is restricted to handling covid19 related ailment"
+                        ]
+            },
+            {
+              "tag":"health status",
+              "patterns": ["i feel sick","i am unwell","i feel ill","i am sick"],
+              "responses":["i will be glad to help you today - i have been designed give you pre-consultation for Covid-19"]
+             },
+
+            {"tag": "covid19-1",
+             "patterns": ["dry cough", "cough", "sore throat"
+                          ], 
+             "responses": ["sorry about your condition, i will need you to provide more information about your symptoms. Please help me with more information so i can assist you",
+                           "So sorry to hear, do not panic, i am here to help you with the best consultation. Can you please provide me with more information so i can assist you adequately?"
+                          ]
+             },
+             {"tag": "covid19-2",
+              "patterns": ["high temprature","high fever","loss of taste","loss of smell","shortness of breath"], 
+              "responses": ["your symptoms are closely related to what we have observed with Covid-19,  do you think you may have had contact with a suspected case of Covid-19 ?",
+                            "you may likely have had contact with a case of Covid-19, you will need to run some test for confirmation. would you like to run a test for confirmation ?"
+                           ]
+              },
+             {"tag": "test",
+             "patterns": ["test for covid19","test", "test for covid-19"],
+             "responses": ["If you think you may have COVID-19, call your GP's office or your local health department to review your symptoms and ask about testing before you go in.This way your health care provider can prepare for your visit and wear personal protective equipment.For a COVID-19 diagnostic test, a health care professional takes a sample of mucus from your nose or throat, or a sample of saliva. The sample needed for diagnostic testing may be collected at your doctor's office, a health care facility or a drive-up testing center. Nose or throat swab: A long nasal swab (nasopharyngeal swab) is recommended, though a shorter or very short nasal swab or throat swab is acceptable. A health care professional inserts a thin, flexible stick with cotton at the tip into your nose or brushes the swab along the back of your throat to collect a sample of mucus. This may be somewhat uncomfortable. For the nasal sample, swabbing may occur in both nostrils to collect enough mucus for the test \n. The swab remains in place briefly before being gently rotated as it's pulled out.The sample gets sealed in a tube and sent to a lab for analysis. Saliva sample: Some locations offer saliva tests. While a saliva sample may be a bit less sensitive than a mucus sample that's taken using a long nasal swab, a saliva test is easier to do and often less uncomfortable.You spit into a tube several times to provide a sample of your saliva to test. The tube is sealed before being sent to a lab for analysis.",
+                           "If you have no symptoms but you've been in close contact with someone who has COVID-19, follow the testing advice of your health care provider or public health department. Having a COVID-19 test at least 5 days after you had close contact to the person with COVID-19 is best. If you're tested too soon, the test may not detect the virus. This way your health care provider can prepare for your visit and wear personal protective equipment. For a COVID-19 diagnostic test, a health care professional takes a sample of mucus from your nose or throat, or a sample of saliva. The sample needed for diagnostic testing may be collected at your doctor's office, a health care facility or a drive-up testing center. Nose or throat swab: A long nasal swab (nasopharyngeal swab) is recommended, though a shorter or very short nasal swab or throat swab is acceptable. A health care professional inserts a thin, flexible stick with cotton at the tip into your nose or brushes the swab along the back of your throat to collect a sample of mucus. This may be somewhat uncomfortable. For the nasal sample, swabbing may occur in both nostrils to collect enough mucus for the test. The swab remains in place briefly before being gently rotated as it's pulled out. The sample gets sealed in a tube and sent to a lab for analysis. Saliva sample: Some locations offer saliva tests. While a saliva sample may be a bit less sensitive than a mucus sample that's taken using a long nasal swab, a saliva test is easier to do and often less uncomfortable. You spit into a tube several times to provide a sample of your saliva to test. The tube is sealed before being sent to a lab for analysis."
+                          ]
+             },
+
+            {
+               "tag":"response-1",
+               "patterns":["yes i have","yes","yea","ya","yeah"],
+               "responses":["okay, do not panic, these are list of test centers around southampton Solent University. You can quickly run a test to confirm if this is Covid-19 related. If your symptoms are severe please see your GP as soon as possible",
+                "these are locations  near you for emergency services. if you sense of form of loss of breath, please contact emergency services on - 999, but in the mean time have plenty of retst and lost of fluid"]
+            },
+
+            {
+              "tag":"response-2",
+              "patterns":["not yet","nope","na","no"],
+              "responses":["your symptoms may just be related to common cold or a upper respiratory track infection (URI) contact emergency services if your symptoms get worse, but in the mean time have plenty of retst and lost of fluid"]
+            },
+            {"tag": "covid19 medication",
+             "patterns": ["medication covid19", "what medication can i take?", "Tell me about covid medication?", "drug for covid19?"],
+             "responses": ["You can take a painkiller (panadol or ibuprofen if you feel uncomfortable), drink lots of water to avoid dehydration and some multivitamins to boost your immune system", 
+             "You can take sotrovimab (Xevudy as prescribed by your GP)",
+             "Nirmatrelvir and Ritonavir (Paxlovid) are medications you can take for treating Covid, but you must get a prescription from your GP",
+             "You can also use remdesivir (Veklury), a drug for covid but you must get a prescription from your GP"]
+            },
+            {"tag": "ease symptoms",
+              "patterns": ["ease pain", "control discomfort", "ease discomfort", "relief","relief pain", "relief discomfort"],
+              "responses": [
+              "if your symptoms are mild, you should get plenty of rest to enable your immune system fight off the infection. Take plenty of fluid to as staying hydrated is important for your body to fight off the  infection",
+              "If you have difficulties breathing, breathe through your mouth in addition to your nose, and get help immidiately - dial 999 for emergency services. If you are having fever, you can try over the counter medication to help you with fever body ache, muscle pain and head ache. Some of the recommended medication include Tylenol, Ibuprofen, Paracetamol. always remember to stay hydrated to help your body fight the infection"
+              ]
+             },
+
+            {"tag": "treatement",
+             "patterns": ["covid-19 treatment?","covid19 treatment", "What treatment can I use for Covid?", "Tell me about covid medication?", "Drug for covid?"],
+             "responses": [
+              "You can take a painkiller (panadol or ibuprofen if you feel uncomfortable), drink lots of water to avoid dehydration and some multivitamins to boost your immune system", 
+              "You can take sotrovimab (Xevudy as prescribed by your GP)",
+              "Nirmatrelvir and Ritonavir (Paxlovid) are medications you can take for treating Covid, but these medication requires you to visit your healthcare provider to get a precription",
+              "Remdesivir (Veklury) is a medication used for Covid-19, but this requires a prescription from your GP or healthcare provider."
+             ]
+            },
+
+            { "tag": "prevention",
+              "patterns": ["avoid covid19","prevent catching covid19","prevention for covid19", "prevent catching covid-19","prevention for covid-19"],
+              "responses": ["Regularly wash your hands", "Use alcohol-based hand sanitizers to reduce your chances of passsing the virus from your hand to your mouth or nose \n", "Use a face mask in a public area \n", "Practice social distancing in public places \n"]
+            },
+            {"tag": "cold medication",
+             "patterns": ["I have cold", "I have flu", "I have cough", "What drug can I take for cold", "What medicine can I take for running nose?"],
+             "responses": ["common cold could be discomforting, take lots of warm water and rest", "Steam inhalation can relieve your cold" ,
+             "take time off work until you are well", "Benylin 4flu is something you can try,  it usually helps with soothing the cold feeling"]
+           },
+
+            { "tag": "serious",
+              "patterns": ["Is this condition serious?", "how serious is this condition?", "should i be worried?", "is it life threatening?"],
+              "responses": ["You stand a chance of getting seriously ill from Covid-19 if you have following condition; Down's syndrome, certain types of cancer (such as a blood cancer like leukaemia or lymphoma), sickle cell disease, certain conditions affecting your blood, chronic kidney disease (CKD) stage 4 or 5, severe liver disease, you’ve had an organ or bone marrow transplant, certain autoimmune or inflammatory conditions (such as rheumatoid arthritis or inflammatory bowel disease), HIV or AIDS and have a weakened immune system, a condition affecting your immune system, a rare condition affecting the brain or nerves (multiple sclerosis, motor neurone disease, Huntington’s disease or myasthenia gravis)a severe problem with the brain or nerves - such as cerebral palsy, severe or multiple learning disabilities (or you're on the learning disability register), a weakened immune system due to a medical treatment (such as steroid medicine, biological therapy, chemotherapy or radiotherapy)."]
+            },
+
+            {"tag": "GP Appointment",
+             "patterns": ["How do I make an appointment with the GP?", "visit a GP", "see a doctor","doctor"],
+             "responses": ["Check for the nearest hospital and visit", "Search for the nearest hospital and go to the ER"]
+            },
+
+            {
+              "tag": "vaccines",
+              "patterns": ["are there vaccines for covid-19?","vaccine", "How do vaccines work?", "Is it safe to get a COVID-19 vaccine?", "When will a COVID-19 vaccine be available for me?"],
+              "responses": [
+                "Yes, there are several vaccines for COVID-19 that have been developed and are currently being distributed around the world. A list of the most popular vaccines includes;Pfizer-BioNTech, Moderna COVID-19, AstraZeneca-Oxford, Johnson & Johnson, Sinovac Vaccines "
+              ]
+            },
+            {"tag": "origin",
+             "patterns": ["origin", "history", "started from","originated","how did it start","started covid-19", "started-covid19"],
+             "responses": ["The novel human coronavirus disease 2019 (COVID-19) was first reported in Wuhan, China, in 2019, and subsequently spread globally to become the fifth documented pandemic since the 1918 flu pandemic. By September 2021, almost two years after COVID-19 was first identified, there had been more than 200 million confirmed cases and over 4.6 million lives lost to the disease according to WHO. There has been frantic efforts from the first recorded case of COVID-19 to curb the spread of the disease with worldwide vaccination programs."]
+            }
+]
+}
+
+
